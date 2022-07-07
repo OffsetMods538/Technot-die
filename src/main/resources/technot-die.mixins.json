@@ -4,9 +4,7 @@
   "package": "io.github.offsetmonkey538.technotdie.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
-
+    "AnimalEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
