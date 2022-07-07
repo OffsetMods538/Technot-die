@@ -6,7 +6,7 @@ import net.minecraft.entity.passive.PigEntity;
 
 public class TechnotDie {
 
-    public static boolean isTechnoPig(Entity entity) {
-        return entity instanceof PigEntity pig && (pig.getCustomName() != null && entity.getCustomName().getString().equals("Technoblade"));
+    public static boolean isTechnoPig(Object entity) {
+        return entity instanceof PigEntity pig && (pig.getCustomName() != null && pig.getCustomName().getString().equals("Technoblade"));
     }
 }
