@@ -11,5 +11,6 @@ public class TechnotDie {
             PigEntity pig = (PigEntity) entity;
             return pig.getCustomName() != null && pig.getCustomName().getString().equals("Technoblade");
         }
+        return false;
     }
 }
