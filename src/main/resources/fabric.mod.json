@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "technot-die",
   "version": "${version}",
-
   "name": "Technopig - He never dies",
   "description": "Name any pig \"Technoblade\" to make them never die.",
   "authors": [
@@ -20,10 +19,8 @@
   "mixins": [
     "technot-die.mixins.json"
   ],
-
   "depends": {
     "fabricloader": "*",
-    "minecraft": "*",
-    "java": ">=17"
+    "minecraft": "*"
   }
 }
