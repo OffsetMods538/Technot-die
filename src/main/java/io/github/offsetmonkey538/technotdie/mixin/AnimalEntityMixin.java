@@ -7,7 +7,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static io.github.offsetmonkey538.technotdie.TechnotDie.isTechnoPig;
+import static io.github.offsetmonkey538.technotdie.TechnotDieUtils.isTechnoPig;
 
 @Mixin(AnimalEntity.class)
 public class AnimalEntityMixin {

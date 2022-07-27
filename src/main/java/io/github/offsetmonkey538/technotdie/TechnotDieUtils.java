@@ -1,10 +1,9 @@
 package io.github.offsetmonkey538.technotdie;
 
 
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.PigEntity;
 
-public class TechnotDie {
+public class TechnotDieUtils {
 
     public static boolean isTechnoPig(Object entity) {
         if (entity instanceof PigEntity) {
